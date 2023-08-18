@@ -28,6 +28,12 @@ const cheerio = require('cheerio');
 var $ = '';
 var html = '';
 
+/*
+    The next code open a navigator, go to amazon website and search for tartas. 
+    Then, the scraperget all h2 titles and their links to create an Array 
+    of JSON with all data.
+*/
+
 (async () =>
 {
     const h2array = [];
