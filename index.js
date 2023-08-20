@@ -49,10 +49,8 @@ var html = '';
         }
     });
 
-    // Crear una nueva página
     const page = await browser.newPage();
 
-    // Navegar a una URL
     await page.goto('https://www.amazon.es/');
 
     await page.waitForSelector('#sp-cc-accept');
@@ -82,7 +80,6 @@ var html = '';
     });
     
     console.log(h2array);
-
-    // Cerrar el navegador
+    
     await browser.close();
 })();
