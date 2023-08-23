@@ -9,6 +9,6 @@ Go to the folder and run the following command to install dependencies:
 
 `npm install`
 
-To ejecute de project use:
+To ejecute the project use:
 
 `node index.js`
