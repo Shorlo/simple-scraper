@@ -50,9 +50,7 @@ var html = '';
     });
 
     const page = await browser.newPage();
-
     await page.goto('https://www.amazon.es/');
-
     await page.waitForSelector('#sp-cc-accept');
     await page.click('#sp-cc-accept');
     await page.waitForSelector('#twotabsearchtextbox');
