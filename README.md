@@ -1,7 +1,7 @@
 # simple-scraper
 A simple example of scraper with Node.JS, Puppeteer and Cheerio
 
-To start de project
+To start the project
 
 `git clone https://github.com/Shorlo/simple-scraper.git`
 
